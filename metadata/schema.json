@@ -36,9 +36,15 @@
                 "downloadUrl": {
                     "type": "string"
                 },
-                "description": {
+                "helpCenterUrl": {
+                    "type": "string"
+                },
+                "shortDescription": {
                     "type": "string",
-                    "maxLength": 1000
+                    "maxLength": 500
+                },
+                "description": {
+                    "type": "string"
                 },
                 "tags": {
                     "type": "array",
