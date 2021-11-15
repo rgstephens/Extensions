@@ -34,17 +34,20 @@
                     "maxLength": 200
                 },
                 "downloadUrl": {
-                    "type": "string"
-                },
-                "helpCenterUrl": {
-                    "type": "string"
-                },
-                "shortDescription": {
                     "type": "string",
                     "maxLength": 500
                 },
+                "helpCenterUrl": {
+                    "type": "string",
+                    "maxLength": 500
+                },
+                "shortDescription": {
+                    "type": "string",
+                    "maxLength": 250
+                },
                 "description": {
-                    "type": "string"
+                    "type": "string",
+                    "maxLength": 2000
                 },
                 "tags": {
                     "type": "array",
