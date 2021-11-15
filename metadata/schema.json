@@ -37,7 +37,7 @@
                     "type": "string",
                     "maxLength": 500
                 },
-                "helpCenterUrl": {
+                "infoUrl": {
                     "type": "string",
                     "maxLength": 500
                 },
