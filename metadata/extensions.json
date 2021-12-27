@@ -859,7 +859,7 @@
             "name": "hubspot",
             "label": "Hubspot",
             "version": "4.0.0",
-            "infoUrl": "https://github.com/Cognigy/Extensions/tree/master/extensions/hubspot",
+            "infoUrl": "https://support.cognigy.com/hc/en-us/articles/360021247139-Hubspot-Maintain-Contact-Information",
             "downloadUrl": "https://github.com/Cognigy/Extensions/releases/download/hubspot400/hubspot.tar.gz",
             "shortDescription": "Find and update contacts or companies in Hubspot",
             "description": "HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service. Its products and services aim to provide tools for customer relationship management, social media marketing, content management, lead generation, web analytics, search engine optimization, live chat, and customer support.",
@@ -1728,8 +1728,10 @@
             "name": "uipath-orchestrator",
             "label": "UIPath Orchestrator",
             "downloadUrl": "https://github.com/Cognigy/Extensions/releases/download/uipath420/uipath-orchestrator.tar.gz",
+            "infoUrl": "https://support.cognigy.com/hc/en-us/articles/360020578359-UiPath-Intro",
             "version": "4.2.0",
-            "description": "Provides functions for the interaction with UiPath Orchestraor",
+            "shortDescription": "Provides functions for the interaction with UiPath Orchestraor",
+            "description": "Provides functions for the interaction with UiPath Orchestraor.",
             "tags": [
                 "robot process automation",
                 "rpa",
@@ -1789,7 +1791,9 @@
             "label": "Vonage",
             "version": "4.0.0",
             "downloadUrl": "https://github.com/Cognigy/Extensions/releases/download/vonage400/vonage.tar.gz",
-            "description": "Integrates with Vonage Conversation API",
+            "infoUrl": "https://support.cognigy.com/hc/en-us/articles/360021530620",
+            "shortDescription": "Integrates with Vonage Conversation API",
+            "description": "The Vonage Communications API in cooperation with the related Extension provides sending SMS and Verify Pin messages.",
             "tags": [
                 "sms",
                 "pin",
@@ -1829,7 +1833,9 @@
             "label": "Wikipedia",
             "version": "4.0.0",
             "downloadUrl": "https://github.com/Cognigy/Extensions/releases/download/wikipedia400/wikipedia.tar.gz",
-            "description": "Search for Wikipedia articles",
+            "infoUrl": "https://github.com/Cognigy/Extensions/tree/master/extensions/wikipedia",
+            "shortDescription": "Search for Wikipedia articles",
+            "description": "Search for Wikipedia articles.",
             "tags": [
                 "search",
                 "articles",
@@ -1851,7 +1857,9 @@
             "label": "Yext",
             "version": "4.0.0",
             "downloadUrl": "https://github.com/Cognigy/Extensions/releases/download/yext400/yext.tar.gz",
-            "description": "Use Yext for store information",
+            "infoUrl": "https://github.com/Cognigy/Extensions/tree/master/extensions/yext",
+            "shortDescription": "Use Yext for store information",
+            "description": "Use Yext for store information.",
             "tags": [
                 "yext",
                 "location",
@@ -1911,8 +1919,10 @@
             "name": "crypto",
             "label": "Crypto",
             "version": "4.0.0",
-            "description": "Handle hashes",
+            "description": "Handle hashes.",
+            "shortDescription": "Handle hashes",
             "downloadUrl": "https://github.com/Cognigy/Extensions/releases/download/Cognigy%2FCrypto/crypto.tar.gz",
+            "infoUrl": "https://github.com/Cognigy/Extensions/tree/master/extensions/crypto",
             "tags": [
                 "decrypt",
                 "encrypt"
@@ -1950,7 +1960,9 @@
             "label": "Stripe",
             "version": "4.0.0",
             "downloadUrl": "https://github.com/Cognigy/Extensions/releases/download/stripe400/stripe.tar.gz",
-            "description": "Handle Payments and Customers",
+            "infoUrl": "https://support.cognigy.com/hc/en-us/articles/4402249687058-Stripe-Handle-Payments-and-Customers",
+            "shortDescription": "Handle Payments and Customers",
+            "description": "With Cognigy.AI and the Stripe Extension, a virtual agent can provide different customer, invoice, product, and payment actions within a chat or voice conversation.",
             "tags": [
                 "customer",
                 "order",
@@ -2082,8 +2094,10 @@
             "name": "tyntec",
             "label": "Tyntec",
             "version": "4.0.0",
-            "description": "Use Tyntec functions",
+            "shortDescription": "Use Tyntec functions",
+            "description": "This integration enables the virtual agent to send SMS messages to any user, in voice or chat conversations, in oder to provie additional information or start a multi-factor authentication process.",
             "downloadUrl": "https://github.com/Cognigy/Extensions/releases/download/tyntec400/tyntec.tar.gz",
+            "infoUrl": "https://github.com/Cognigy/Extensions/tree/master/extensions/tyntec",
             "tags": [
                 "channel",
                 "communication",
@@ -2105,8 +2119,10 @@
             "name": "vier-voice",
             "label": "Vier Voice",
             "version": "4.0.1",
-            "description": "Enable phone bots with VIER Cognitive Voice Gateway",
+            "shortDescription": "Enable phone bots with VIER Cognitive Voice Gateway",
+            "description": "Enable phone bots with VIER Cognitive Voice Gateway.",
             "downloadUrl": "https://github.com/Cognigy/Extensions/releases/download/vier-voice401/vier_voice.tar.gz",
+            "infoUrl": "https://github.com/Cognigy/Extensions/tree/master/extensions/vier-cognitive-voice-gateway",
             "tags": [
                 "voice",
                 "phone"
@@ -2171,26 +2187,6 @@
                     "type": "terminate",
                     "defaultLabel": "Terminate Call",
                     "description": "Drop the call",
-                    "tags": []
-                }
-            ]
-        },
-        {
-            "name": "patterns",
-            "label": "Patterns",
-            "version": "4.0.1",
-            "description": "Pattern matching Node for Cognigy.AI",
-            "downloadUrl": "https://github.com/Cognigy/Extensions/releases/download/patterns401/patterns.tar.gz",
-            "tags": [
-                "pattern",
-                "matching"
-            ],
-            "icon": "data:image/png;base64,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",
-            "nodes": [
-                {
-                    "type": "matchPattern",
-                    "defaultLabel": "Match Pattern",
-                    "description": "Match Pattern",
                     "tags": []
                 }
             ]
