@@ -43,7 +43,7 @@
                     "type": "string",
                     "maxLength": 500
                 },
-                "shortDescription": {
+                "longDescription": {
                     "type": "string",
                     "maxLength": 250
                 },
