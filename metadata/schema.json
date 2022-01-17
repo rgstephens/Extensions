@@ -45,11 +45,11 @@
                 },
                 "longDescription": {
                     "type": "string",
-                    "maxLength": 250
+                    "maxLength": 2000
                 },
                 "description": {
                     "type": "string",
-                    "maxLength": 2000
+                    "maxLength": 1000
                 },
                 "tags": {
                     "type": "array",
