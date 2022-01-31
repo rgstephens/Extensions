@@ -112,12 +112,20 @@ export const insertNode = createNodeDescriptor({
 
         try {
 
+            cognigy.api.log('debug', `supabase createClient, supabaseUrl: ${supabaseUrl}`);
             const supabase = createClient(supabaseUrl, supabaseKey);
 
+            cognigy.api.log('debug', `supabase insert call, table: ${table}, rowsData: ${rowsData}`);
             const { data, error } = await supabase
                 .from(table)
                 .insert(rowsData);
 
+            if (error && error.message) {
+                cognigy.api.log('error', `supabase insert error.message: ${error.message}`);
+            } else {
+                cognigy.api.log('debug', 'supabase insert succeeded');
+                Object.keys(data).forEach(prop => cognigy.api.log('error', `suprabase data: ${prop}`))
+            }
             if (storeLocation === "context") {
                 api.addToContext(contextKey, data, "simple");
             } else {
@@ -126,6 +134,7 @@ export const insertNode = createNodeDescriptor({
             }
 
         } catch (error) {
+            cognigy.api.log('error', `supabase insert error.message: ${error.message}`);
             if (storeLocation === "context") {
                 api.addToContext(contextKey, { error: error }, "simple");
             } else {
